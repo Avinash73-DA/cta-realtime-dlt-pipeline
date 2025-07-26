@@ -1,0 +1,31 @@
+{
+  "id": "pipeline_id",
+  "pipeline_type": "WORKSPACE",
+  "name": "cta_streaming_pipeline",
+  "libraries": [
+    {
+      "glob": {
+        "include": "/Workspace/Users/@gmail.com/cta_streaming_pipeline/transformations/**"
+      }
+    }
+  ],
+  "schema": "bronze",
+  "continuous": true,
+  "development": false,
+  "photon": true,
+  "channel": "PREVIEW",
+  "catalog": "cta_project",
+  "notifications": [
+    {
+      "email_recipients": [
+        "avinashsolai@gmail.com"
+      ],
+      "alerts": [
+        "on-update-failure",
+        "on-flow-failure"
+      ]
+    }
+  ],
+  "serverless": true,
+  "root_path": "/Workspace/Users/avinashsolai@gmail.com/cta_streaming_pipeline"
+}
