@@ -25,3 +25,30 @@ This directory provides sample data files that can be used for development, test
 -   **`bus_data.json`**: A JSON file containing a snapshot of the data returned by the bus streaming API.
 -   **`train_data.json`**: A JSON file containing a snapshot of the data returned by the train streaming API.
 -   **`ridership_historical.csv`**: A CSV file with historical daily ridership counts for each CTA station, useful for trend analysis.
+
+### 🗺️ Pipeline Architecture
+
+Below is the end-to-end architecture of the real-time CTA streaming pipeline implemented with Delta Live Tables in Databricks.
+
+![CTA DLT Pipeline Architecture](resources/cta_dlt_pipeline.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
